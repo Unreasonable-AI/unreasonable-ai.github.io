@@ -489,3 +489,13 @@ html {
 code {
     font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace
 }
+
+.logo-outer > div{
+    display: inline-block;
+}
+
+.logo-name{
+    font-size: 5rem;
+    padding-left: 0.25rem;
+    font-weight: 100;
+}
