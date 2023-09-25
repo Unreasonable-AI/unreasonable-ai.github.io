@@ -490,12 +490,21 @@ code {
     font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace
 }
 
-.logo-outer > div{
-    display: inline-block;
+/* .logo-long{
+    display: none;
+} */
+
+.logo img{
+    max-height: 78px;
 }
 
-.logo-name{
-    font-size: 5rem;
-    padding-left: 0.25rem;
-    font-weight: 100;
+
+@media (min-width: 768px) {
+    .logo-long{
+        display: block;
+    }
+    .logo-small{
+        display: none;
+    }
 }
+
